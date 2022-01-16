@@ -1,0 +1,697 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+/* end of google font */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+}
+/* header seciion */
+/* header menu area */
+#header{
+    background-color: #FF6B81;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.container{
+    width: 1130px;
+    margin: auto;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo img{
+    width: 150px;
+    height: 50px;
+}
+.nav-menu ul{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 35px;
+}
+.nav-menu ul li{
+    list-style: none;
+    margin: 20px;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #ffff;
+}
+.nav-btn .get-it{
+    padding: 10px 20px;
+    border: 2px solid #ffff;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-weight: 600;
+    line-height: 40px;
+    margin-right: 30px;
+    transition: 0.3s all linear;
+}
+.nav-btn .get-it:hover{
+    background-color: #ffffff;
+    color: #FF6B81;
+}
+/* end of header menu area */
+/* header banner area */
+.header-banner-area{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    max-width: 100%;
+}
+.header-banner-txt{
+    width: 50%;
+}
+.header-banner-txt h1{
+    font-size: 40px;
+    color: #ffff;
+}
+.header-banner-txt p{
+    color: #ffffff;
+    line-height: 25px;
+    margin-top: 25px;
+}
+.header-bannertxt-btn{
+    margin-top: 50px;
+}
+.header-bannertxt-btn .a-store{
+    border: 2px solid #ffffff;
+    margin-right: 10px;
+    padding: 12px 30px;
+    background-color: #ffffff;
+    color: #FF6B81;
+    font-weight: 600;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .3s all linear;
+}
+.header-bannertxt-btn .fa-apple{
+    font-size: 20px;
+    margin: 5px;
+}
+.header-bannertxt-btn .a-store:hover{
+    background-color: #081828;
+    color: #ffffff;
+}
+.header-bannertxt-btn .g-play{
+    border: 2px solid #ffffff;
+    padding: 12px 35px;
+    background-color: #FF6B81;
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .3s all linear;
+}
+.header-bannertxt-btn .fa-google-play{
+    font-size: 20px;
+    margin: 5px;
+}
+.header-bannertxt-btn .g-play:hover{
+    background-color: #ffffff;
+    color: #FF6B81;
+}
+.header-banner-img img{
+    max-width: 100%;
+    margin-left: 30px;
+}
+/* end of header banner area */
+/* header seciion */
+/* feature area */
+ /* feature area heading */
+ .feature-area{
+    padding: 100px 0px 100px 0px;
+    background-color: #F9F9F9;
+}
+.feature-heading{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.feature-heading h3{
+    color: #FF6B81;
+    font-weight: 500;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+}
+.feature-heading h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.feature-heading p{
+    line-height: 28px;
+    color: #888888;
+}
+ /* end of feature area heading */
+ /* feature box area */
+ .feature-box{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     grid-template-rows: repeat(2, 270px);
+     grid-column-gap: 30px;
+     grid-row-gap: 30px;
+}
+.feature-box .box{
+    background-color: #ffffff;
+    padding: 30px 35px;
+    border-radius: 10px;
+    border: 1px solid #FF6B81;
+}
+.box i{
+    background-color: #FF6B81;
+    padding: 20px;
+    color: #ffff;
+    border-radius: 8px;
+}
+.feature-box .box h3{
+    padding: 15px 0px;
+}
+.feature-box .box p{
+    color: #888888;
+}
+ /*  end of feature box area */
+/* end of feature area */
+ /* active user area */
+.active-user-area{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+.active-user-lefttxt{
+    width: 80%;
+}
+.active-user-lefttxt i{
+    background-color: #FF6B81;
+    padding: 20px;
+    color: #ffff;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+.active-user-lefttxt h1{
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+.active-user-lefttxt p{
+    color: #888888;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+.active-user-leftbtn a{
+    border: 2px solid #ffffff;
+    margin-right: 10px;
+    margin-left: -3px;
+    padding: 12px 30px;
+    background-color: #FF6B81;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .3s all linear;
+}
+.active-user-leftbtn a:hover{
+    background-color: #081828;
+    color: #fff;
+}
+.active-user-right img{
+    max-width: 500px;
+}
+ /* end of active user area */
+ /* loyalty area */
+ .loyalty-area{
+     display: flex;
+     align-items: center;
+     margin-top: 100px;
+ }
+ .loyalty-area-left img{
+    max-width: 450px;
+}
+.loyalty-area-right{
+    padding: 0px 0px 0px 120px;
+}
+.loyalty-area-righttxt i{
+    background-color: #FF6B81;
+    padding: 20px;
+    color: #ffff;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+.loyalty-area-righttxt h1{
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+.loyalty-area-righttxt p{
+    color: #888888;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+.loyalty-area-rightbtn a{
+    border: 2px solid #ffffff;
+    margin-right: 10px;
+    margin-left: -3px;
+    padding: 12px 30px;
+    background-color: #FF6B81;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .3s all linear;
+}
+.loyalty-area-rightbtn a:hover{
+    background-color: #081828;
+    color: #fff;
+}
+ /* end of loyalty area */
+ /* achievement area */
+ .achievement-area{
+     width: 100%;
+     height: 400px;
+     background-color: #FF6B81;
+     color: #ffffff;
+     margin-top: 100px;
+ }
+ .achievement-areatxt{
+     text-align: center;
+     padding-top: 100px;
+     line-height: 40px;
+ }
+ .achievement-areatxt h1{
+     font-size: 35px;
+     text-transform: capitalize;
+ }
+.achievement-area-row{
+    position: relative;
+}
+.achievement-area-row .row-list{
+    display: flex;
+    position: absolute;
+    left: 390px;
+}
+.row-list .row{
+    margin: 40px;
+}
+.row-list .row h1{
+    font-size: 40px;
+}
+ /* end of achievement area */
+/* pricing plan area */
+/* price plan heading area */
+.price-plan-area{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #F9F9F9;
+}
+.price-plan-areatxt{
+    margin-bottom: 80px;
+    text-align: center;
+}
+.price-plan-areatxt h4{
+    color: #FF6B81;
+    margin-bottom: 10px;
+}
+.price-plan-areatxt h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.price-plan-areatxt p{
+    color: #888888;
+    line-height: 30px;
+}
+/* end of price plan heading area */
+/* price plan card area */
+.price-area-card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 30px;
+    grid-template-rows: repeat(1,475px);
+}
+.card{
+    background-color: #ffffff;
+    border-radius: 10px;
+    position: relative;
+    border: 1px solid #FF6B81;
+}
+.card-duration{
+    padding: 30px;
+}
+.card-duration h4{
+    margin-bottom: 20px;
+}
+.card-duration p{
+    margin-bottom: 25px;
+    color: #888888;
+}
+.card-duration h2{
+    font-size: 30px;
+}
+.card-duration h2 span{
+    font-size: 15px;
+    font-weight: 400;
+    color: #888888;
+}
+.card-duration-btn{
+    padding: 12px 55px;
+    background-color: #081828;
+    text-transform: capitalize;
+    border-radius: 5px;
+    margin: 25px 2px;
+    transition: .3s all linear;
+}
+.card-duration-btn a{
+    text-decoration: none;
+    color: #fff;
+}
+.card-duration-btn:hover{
+    background-color: #FF6B81;
+    color: #fff;
+}
+.card-content{
+    padding: 30px;
+    border-top: 1px solid #EEEEEE;
+    position: absolute;
+    top: 270px;
+}
+.card-content h4{
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.card-content ul li{
+    list-style: none;
+    font-size: 14px;
+    line-height: 30px;
+    color: #888888;
+}
+.card-content ul li i{
+    color: #FF6B81;
+    margin-right: 10px;
+}
+/* end of price plan card area */
+/* end of pricing plan area */
+/* team area */
+.team-area{
+    margin: 100px 0px 100px 0px;
+}
+.team-area-heading{
+    text-align: center;
+}
+.team-area-heading h4{
+    color: #FF6B81;
+    margin-bottom: 10px;
+}
+.team-area-heading h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.team-area-heading p{
+    line-height: 30px;
+    color: #888888;
+    margin-bottom: 80px;
+}
+.team-area-box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,350px);
+    grid-gap: 30px;
+}
+.team-box{
+    border-radius: 10px;
+    border: 1px solid #FF6B81;
+}
+.team-boximg img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.team-box-details{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.member-detail{
+    line-height: 25px;
+}
+.member-detail h5{
+    color: #FF6B81;
+}
+.member-social i{
+    margin: 5px;
+    color: #888888;
+}
+.member-social i:hover{
+    color: #FF6B81;
+}
+/* end of team area */
+/* app download area */
+.app-download-area{
+    width: 100%;
+    height: 400px;
+    background-color: #FF6B81;
+    color: #fff;
+    text-align: center;
+}
+.app-download-heading h1{
+    font-size: 40px;
+    padding-top: 100px;
+    margin-bottom: 30px;
+}
+.app-download-heading p{
+    line-height: 25px;
+}
+.app-download-btn{
+    margin-top: 50px;
+}
+.app-download-btn .apple-store{
+    border: 2px solid #ffffff;
+    margin-right: 10px;
+    padding: 12px 30px;
+    background-color: #ffffff;
+    color: #FF6B81;
+    font-weight: 600;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .3s all linear;
+}
+.app-download-btn .fa-apple{
+    font-size: 20px;
+    margin: 5px;
+}
+.app-download-btn .apple-store:hover{
+    background-color: #081828;
+    color: #ffffff;
+}
+.app-download-btn .google-play{
+    border: 2px solid #ffffff;
+    padding: 12px 35px;
+    background-color: #FF6B81;
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .3s all linear;
+}
+.app-download-btn .fa-google-play{
+    font-size: 20px;
+    margin: 5px;
+}
+.app-download-btn .google-play:hover{
+    background-color: #ffffff;
+    color: #FF6B81;
+}
+/* end of app download area */
+/* blog area */
+.blog-area{
+    background-color: #EEEEEE;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+.blog-area-heading{
+    text-align: center;
+    padding-top: 100px;
+}
+.blog-area-heading h4{
+    color: #FF6B81;
+    margin-bottom: 10px;
+}
+.blog-area-heading h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.blog-area-heading p{
+    line-height: 25px;
+    color: #888888;
+    margin-bottom: 80px;
+}
+.blog-area-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+}
+.blog-area-card .blog-card{
+    width: 100%;
+    height: 500px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #FF6B81;
+}
+.blog-area-card .blog-card img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.blog-area-cardtxt{
+    padding: 30px;
+}
+.blog-area-cardtxt h4{
+    margin-bottom: 10px;
+    color: #FF6B81;
+}
+.blog-area-cardtxt h3{
+    margin-bottom: 15px;
+}
+.blog-area-cardtxt p{
+    line-height: 25px;
+    color: #888888;
+}
+.blog-area-autor{
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    color: #888888;
+}
+.blog-area-autor .autor-img img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.blog-area-autor .autor-details{
+    margin-left: 20px;
+}
+.autor-details{
+    line-height: 25px;
+}
+.autor-details i{
+    font-size: 5px;
+}
+/* enf of blog area */
+/* footer area */
+.footer-area{
+    width: 100%;
+    height: 700px;
+    margin-top: 100px;
+    color: #fff;
+    background-color: #081828;
+    position: relative;
+}
+.footer-area-content{
+    display: flex;
+    align-items: center;
+}
+.footer-area-left{
+    margin: 100px;
+    width: 350px;
+}
+.footer-area-txt img{
+    width: 200px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.footer-area-txt p{
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.footer-area-icon i{
+    font-size: 25px;
+    margin: 10px;
+}
+.footer-area-icon p{
+    margin-top: 50px;
+}
+.footer-area-right{
+    display: flex;
+    position: absolute;
+    left: 500px;
+    top: 100px;
+}
+.footer-area-right h3{
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.footer-menu-one,.footer-menu-two,.footer-menu-three,.footer-menu-four{
+    margin: 0px 40px;
+}
+.footer-menu-one,.footer-menu-two,.footer-menu-three,.footer-menu-four, ul li{
+    line-height: 40px;
+    list-style: none;
+}
+.footer-menu-one,.footer-menu-two,.footer-menu-three,.footer-menu-four, ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+}
+.footer-sub-area{
+    width: 1130px;
+    height: 150px;
+    border: 1px solid #888888;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.sub-area-left h3{
+    margin-bottom: 10px;
+}
+.sub-area-right input{
+    width: 300px;
+    height: 39px;
+    border-radius: 5px;
+    padding-left: 20px;
+    background-color: #394653;
+    border: none;
+    outline: none;
+}
+::placeholder{
+    color: #ffffff;
+}
+.sub-area-right button{
+    padding: 10px 40px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF6B81;
+    color: #fff;
+    margin-left: 10px;
+    transition: .3s all linear;
+}
+.sub-area-right button:hover{
+    background-color: #fff;
+    color: #FF6B81;
+}
+.bottom-to-top-btn i{
+    padding: 15px 20px;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #FF6B81;
+    position: absolute;
+    right: 30px;
+    top: 630px;
+}
+.bottom-to-top-btn i:hover{
+    background-color: #081828;
+    color: #fff;
+}
+/* end of footer area */
